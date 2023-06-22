@@ -1,0 +1,40 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.app-container {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-color: #ffc2a0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-card-container {
+  background-color: #ffffff;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.heading {
+  font-size: 46px;
+  color: #ff8542;
+}
+.todo-items-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+}
+@media screen and (max-width: 576px) {
+  .heading {
+    font-size: 22px;
+  }
+}
